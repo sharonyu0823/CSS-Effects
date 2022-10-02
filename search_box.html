@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="search_box_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="searchBox">
+        <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="searchInput"><input type="text" placeholder="Search Here"></div>
+        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+</body>
+
+<script>
+    let search = document.querySelector('.search');
+    let close = document.querySelector('.close');
+    let searchBox = document.querySelector('.searchBox');
+    search.addEventListener('click', () => {
+        searchBox.classList.add('active');
+    })
+
+    close.addEventListener('click', () => {
+        searchBox.classList.remove('active');
+    })
+
+
+</script>
+
+</html>
