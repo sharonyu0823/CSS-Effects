@@ -108,7 +108,7 @@ body {
     background: #330748;
     cursor: pointer;
     transform: scale(0.5);
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .toggle.active {
