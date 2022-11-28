@@ -1,0 +1,58 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+.s-o-card {
+  border: 1px solid red;
+}
+
+/* .s-o-items {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+
+.s-o-items-a {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.s-o-data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+  border: 1px solid green;
+}
+
+.s-o-line {
+  width: 100%;
+  position: absolute;
+  /* top: 60; */
+
+  border-bottom: 1px solid black;
+}
+
+.s-o-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid pink;
+}
+
+.s-o-question {
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+.s-o-answer {
+  border: 1px solid blue;
+}
