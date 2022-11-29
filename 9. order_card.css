@@ -69,7 +69,6 @@
   overflow: auto;
   background-color: bisque;
 
-
   /* justify-content: space-around;
   align-items: center; */
   /* position: relative; */
@@ -113,4 +112,35 @@
 
 .s-o-answer-d {
   /* border: 1px solid blue; */
+}
+
+.s-mboNote1 {
+  display: block;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.s-mboNote1.active {
+  display: none;
+}
+
+.s-mboNote2 {
+  display: none;
+}
+.s-mboNote2.active {
+  display: block;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.s-orderCloumn {
+  height: 0;
+}
+
+.s-orderCloumn.active {
+  transform: translateY(0px);
+  transition: height 1s ease-out, opacity 0.2s ease-in, visibility 0.2s ease-in;
+  height: 100%;
+  opacity: 1;
+  visibility: 1;
 }
